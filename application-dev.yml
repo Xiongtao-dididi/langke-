@@ -1,18 +1,3 @@
-server:
-  port: 8001
-spring:
-  application:
-    name: Cloud-Config
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Xiongtao-dididi/langke-config.git
-          username: Xiongtao-dididi
-          password: xiongtao0405
-          #          default-label: master #配置文件分支
-          search-paths: langke-config  #配置文件所在根目录
-          basedir: D:\case\langke-config\langke-config
 eureka:
   client:
     service-url:
